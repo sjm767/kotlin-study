@@ -18,7 +18,7 @@ fun main(){
 
     //Kotlin에서 Java코드를 가져다 사용할 때 어떻게 처리될까?
     val person = Person("공부하는 개발자")
-    startsWithA(person.name)
+    person?.name?.let { startsWithA(it) }
 
 }
 
