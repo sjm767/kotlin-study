@@ -70,7 +70,7 @@ fun startsWithA(obj: Any): Boolean{
 fun judgeNumber(number: Int): Unit{
     when(number){
         1,0,-1 -> println("어디서 많이 본 숫자입니다")
-        else -> println("1,0,-1이 아닙니다"
+        else -> println("1,0,-1이 아닙니다")
     }
 }
 fun judgeNumber2(number: Int): Unit{
