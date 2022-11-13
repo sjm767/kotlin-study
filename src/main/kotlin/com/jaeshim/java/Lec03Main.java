@@ -1,6 +1,6 @@
 package com.jaeshim.java;
 
-import com.jaeshim.objects.Person;
+import com.jaeshim.lecture.Person;
 
 public class Lec03Main {
 

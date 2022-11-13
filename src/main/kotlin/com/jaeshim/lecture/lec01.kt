@@ -11,6 +11,5 @@ fun main(){
 //    tempList2= arrayListOf<String>("geopark")
 
     var number1:Long = 10L
-    var number3: Long = 1000000000000000000000000L
 
 }

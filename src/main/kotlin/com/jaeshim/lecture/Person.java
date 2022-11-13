@@ -1,14 +1,13 @@
-package com.jaeshim.objects;
+package com.jaeshim.lecture;
 
 
-import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 public class Person {
   private final String name;
 
 //  @Nullable
-  @NotNull
+  @Nullable
   public String getName() {
     return name;
   }

@@ -1,6 +1,7 @@
 package com.jaeshim
 
-import com.jaeshim.objects.Person
+import com.jaeshim.lecture.Person
+import io.ktor.util.Identity.decode
 
 fun main(){
 
@@ -12,13 +13,44 @@ fun main(){
 
 //    val person = Person("심재민")
 
-    val str = """
-        ABCD
-        EFD
-    """.trimIndent()
+//    val str = """
+//        ABCD
+//        EFD
+//    """.trimIndent()
+//
+//    val str2 = "ABC"
+//    println(str2[0])
 
-    val str2 = "ABC"
-    println(str2[0])
+//    val result = mayThrowAnException(false)
+//
+//    println(result?.decode(null))
+//
+//    if(result == null){ //이 부분은 항상 true이다
+//
+//    }
+
+//
+//    val nullableValue: String?=null
+//    nullableValue?: throw IllegalStateException()
+////    print(value)
+//
+//    var str: String? = test()
+//    println(str==10L)
+}
+
+fun test() : String?{
+    return null
+}
+
+
+fun mayThrowAnException(throwException: Boolean) : Nothing?{ //Nothing이 되거나 null이 될 수 있다.
+    return if(throwException){
+        throw IllegalStateException()
+    }
+    else{
+        println("Exception not thrown")
+        null
+    }
 }
 
 fun printAgeIfPerson(obj: Any){
