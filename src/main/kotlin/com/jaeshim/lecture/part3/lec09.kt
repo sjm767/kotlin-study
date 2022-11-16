@@ -1,7 +1,5 @@
 package com.jaeshim.lecture.part3
 
-import com.jaeshim.objects.Person
-
 fun main(){
     val person = Person("jaeshim",34)
 
