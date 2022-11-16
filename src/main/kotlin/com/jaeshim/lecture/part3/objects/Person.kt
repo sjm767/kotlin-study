@@ -1,4 +1,4 @@
-package com.jaeshim.lecture.part3
+package com.jaeshim.lecture.part3.objects
 
 import java.lang.IllegalArgumentException
 
