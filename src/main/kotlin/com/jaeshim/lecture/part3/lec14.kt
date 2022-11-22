@@ -29,3 +29,19 @@ data class PersonDto(
     val age:Int,
 )
 
+sealed class  HyundaiCar(
+    val name:String,
+    val price: Long
+)
+
+class Avante : HyundaiCar("아반떼",1000L)
+class Sonata : HyundaiCar("쏘나타",1000L)
+class Grandeur : HyundaiCar("그랜져",1000L)
+
+private fun handleCar(car: HyundaiCar){
+    when(car){
+        is Avante -> TODO()
+        is Grandeur -> TODO()
+        is Sonata -> TODO()
+    }
+}
