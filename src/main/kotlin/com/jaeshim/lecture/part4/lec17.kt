@@ -4,3 +4,7 @@ fun main(){
 
 
 }
+
+fun printHelloWorld(){
+    println("Hello World From part4")
+}
