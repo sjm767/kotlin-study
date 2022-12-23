@@ -58,3 +58,13 @@ fun main(){
     }
 
 }
+
+//number가 0이하면 null을 반환하고, 아니면 number를 반환한다
+fun getNumberOrNull(): Int?{
+    return if(number<=0){
+        null
+    } else{
+        number
+    }
+
+}
